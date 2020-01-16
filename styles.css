@@ -1,0 +1,26 @@
+h1, h2 {
+    text-align: center;
+    color: purple;
+    font-size: 50px;
+    font-family: helvetica;
+    border: 1px;
+    border-color: black;
+}
+img {
+    height: 320px;
+}
+em {
+    text-transform: uppercase;
+    font-style: initial;
+}
+.big {
+    font-size: 32px;
+    border-style: dotted;
+}
+p {
+    font-family: helvetica;
+    color: seagreen;
+}
+p.tacos .big {
+    font-size: 48px;
+}
