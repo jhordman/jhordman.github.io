@@ -1,45 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <title>Best 90s website in 2020</title>
+    <!-- Google Fonts -->
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Your own CSS -->
     <link rel="stylesheet" href="styles.css">
-</head>
 
-<body>
-    <h1>The KIEI 451 Website!</h1>
-    <h2>Best 90s website in 2020</h2>
+    <title>Julian's Epic Travels</title>
+  </head>
+  <body>
 
-    <table>
-        <tr>
-            <td>
-                <a href="index.html">Home</a>
-            </td>
-            <td>
-                <a href="about.html">Our About Page</a>
-            </td>
-        </tr>
-    </table>
+    <!-- Jumbotron with embedded navigation bar -->
 
-    <p class="big">
-        This class is gonna be <em>soooooooooo</em> <strong>awesome</strong>!
-    </p>
+    <div class="jumbotron jumbotron-fluid pt-0">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <b>Julian's Epic Travels</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link pl-2" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link p1-2" href="#modal-link" data-toggle="modal" data-target="#modal-link">Contact</a>
+                    </li>
+                </ul>
+                    <a class="btn btn-dark btn-md" href="subscribe.html" role="button">Subscribe</a>
+            </div>
+        </nav>
 
-    <p>
-        We have 30 hours to learn <strong>ALL THE THINGS</strong> &#128561 &#128561 &#128561
-    </p>
+        <!-- Jumbotron text -->
 
-    <p>
-        So far we've learned <code>HTML</code>.
-        <br>
-        Our websites look like they're from <a
-            href="https://www.bustle.com/articles/159061-10-things-we-genuinely-miss-about-90s-internet-because-nostalgia-runs-deep">the
-            90s</a>.
-    </p>
+        <div class="text-right caption m-2">
+            <i>
+                - Halong Bay, Vietnam
+            </i>
+        </div>
 
-    <div>
-        <img src="cool.png">
     </div>
-</body>
 
+        <!-- About me -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>
+                        About Me
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-4 mt-4">
+                <img src="julian.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
+              <div class="col-8 mt-4">
+                <p>
+                    Hi! My name is Julian and I'm a student at Northwestern University's Kellogg School of Management. When I'm not learning to code websites in KIEI-451 using front-end development tools like HTML and CSS, I love taking trips to new destinations and giving travel recommendations to my friends. I've visited 23 countries so far; on this website you'll find details about some of my favorite places!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <!-- Recent trips -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1>
+                            Recent Trips
+                        </h1>
+                    </div>
+                </div>
+                <div class="row mt-4">    
+                    <div class="col-4 text-center hover">
+                        <div class="container">
+                            <a href="iceland.html"><img class="img_height image" src="iceland.jpg"></a>
+                            <div class="hovertext">Iceland</div>
+                        </div>
+                    </div>
+                    <div class="col-4 text-center">
+                        <div class="container">
+                            <a href="#modal-link" data-toggle="modal" data-target="#modal-link"><img class="img_height image" src="vietnam.jpg"></a>
+                            <div class="hovertext">Vietnam</div>
+                        </div>
+                    </div>
+                    <div class="col-4 text-center">
+                        <div class="container">
+                            <a href="#modal-link" data-toggle="modal" data-target="#modal-link"><img class="img_height image" src="spain.jpg"></a>
+                            <div class="hovertext">Spain</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+            <hr class="my-4">
+
+    <!-- Footer -->
+
+        <div class="container footer">
+            <div class="row my-5">
+            <div class="col-sm-9">
+                <h6>Julian's Epic Travels</h6>
+                <ul class="list-unstyled mt-3">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#modal-link" data-toggle="modal" data-target="#modal-link">Contact</a></li>
+                    <li><a href="subscribe.html">Subscribe</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h6>Established 2020</h6>
+                <p class="mt-3"><em>For your joy and entertainment only.</em></p>
+            </div>
+            </div>
+        </div>
+
+<!-- Modal -->
+
+<div class="modal fade" id="modal-link" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="modal-link">Oops!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+        This link isn't active yet!
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>

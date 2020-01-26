@@ -1,26 +1,43 @@
-h1, h2 {
-    text-align: center;
-    color: purple;
+.navbar-brand {
+    font-family: 'Amatic SC', cursive;
     font-size: 50px;
-    font-family: helvetica;
-    border: 1px;
-    border-color: black;
+    padding-top: 0;
+    padding-bottom: 0;
 }
-img {
-    height: 320px;
+
+.jumbotron {
+    background-image: url(vietnam-2.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    padding-bottom: 25%;
+    background-position-y: -260px;
+    position: relative;
 }
-em {
-    text-transform: uppercase;
-    font-style: initial;
+
+.caption {
+    position: absolute;
+    bottom: 0;
+ }
+
+.img_height {
+     height: 200px;
+ }
+
+a:hover .image {
+    opacity: 0.3;
 }
-.big {
-    font-size: 32px;
-    border-style: dotted;
+
+.image {
+    position: relative;
+    text-align: center;
 }
-p {
-    font-family: helvetica;
-    color: seagreen;
-}
-p.tacos .big {
-    font-size: 48px;
+
+.hovertext {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
 }
