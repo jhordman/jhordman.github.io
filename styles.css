@@ -8,7 +8,9 @@
 .jumbotron {
     background-image: url(vietnam-2.jpg);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-bottom: 25%;
     background-position-y: -260px;
     position: relative;
@@ -17,6 +19,8 @@
 .caption {
     position: absolute;
     bottom: 0;
+    right: 0;
+    color: white;
  }
 
 .img_height {
