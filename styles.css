@@ -23,23 +23,21 @@
     color: white;
  }
 
-.img_height {
-     height: 200px;
+.img_responsive {
+     height: auto;
+     width: 100%;
+     position: relative;
+     text-align: center;
  }
 
-a:hover .image {
+a:hover .img_responsive {
     opacity: 0.3;
-}
-
-.image {
-    position: relative;
-    text-align: center;
 }
 
 .hovertext {
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-shadow: 1px 1px black;
