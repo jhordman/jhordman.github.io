@@ -21,6 +21,7 @@
     bottom: 0;
     right: 0;
     color: white;
+    text-shadow: 1px 1px black;
  }
 
 .img_responsive {
