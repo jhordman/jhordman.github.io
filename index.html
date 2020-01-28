@@ -26,7 +26,7 @@
 
     <div class="jumbotron jumbotron-fluid pt-0">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <b>Julian's Epic Travels</b>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,79 +45,74 @@
             </div>
         </nav>
 
-        <!-- Jumbotron text -->
+        <!-- Jumbotron caption-->
 
-        <div class="text-right caption m-2">
-            <i>
-                - Halong Bay, Vietnam
-            </i>
-        </div>
+        <div class="text-right caption m-2">- Halong Bay, Vietnam</div>
 
     </div>
 
         <!-- About me -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <h1>
-                        About Me
-                    </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1>
+                    About Me
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm mt-4 p-2">
+            <img src="julian.jpg" class="img_responsive" alt="Responsive image">
+            </div>
+            <div class="col-sm mt-4 p-2">
+            <p>
+                Hi! My name is Julian and I'm a student at Northwestern University's Kellogg School of Management. When I'm not learning to code websites in KIEI-451 using front-end development tools like HTML and CSS, I love taking trips to new destinations and giving travel recommendations to my friends. I've visited 23 countries so far; on this website you'll find details about some of my favorite places!
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Recent trips -->
+
+    <div class="container">
+        <div class="row brandfont">
+            <div class="col text-center">
+                <h1>
+                    Recent Trips
+                </h1>
+            </div>
+        </div>
+        <div class="row mt-4">    
+            <div class="col-sm text-center p-0">
+                <div class="container p-2">
+                    <a href="iceland.html"><img class="img_responsive" src="iceland.jpg"></a>
+                    <div class="hovertext">Iceland</div>
                 </div>
             </div>
-            <div class="row">
-              <div class="col-sm mt-4 p-2">
-                <img src="julian.jpg" class="img_responsive" alt="Responsive image">
-              </div>
-              <div class="col-sm mt-4 p-2">
-                <p>
-                    Hi! My name is Julian and I'm a student at Northwestern University's Kellogg School of Management. When I'm not learning to code websites in KIEI-451 using front-end development tools like HTML and CSS, I love taking trips to new destinations and giving travel recommendations to my friends. I've visited 23 countries so far; on this website you'll find details about some of my favorite places!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <hr class="my-4">
-
-          <!-- Recent trips -->
-
-            <div class="container">
-                <div class="row">
-                    <div class="col text-center">
-                        <h1>
-                            Recent Trips
-                        </h1>
-                    </div>
-                </div>
-                <div class="row mt-4">    
-                    <div class="col-4 text-center p-0">
-                        <div class="container p-2">
-                            <a href="iceland.html"><img class="img_responsive" src="iceland.jpg"></a>
-                            <div class="hovertext">Iceland</div>
-                        </div>
-                    </div>
-                    <div class="col-4 text-center p-0">
-                        <div class="container p-2">
-                            <a href="#modal-link" data-toggle="modal" data-target="#modal-link"><img class="img_responsive" src="vietnam.jpg"></a>
-                            <div class="hovertext">Vietnam</div>
-                        </div>
-                    </div>
-                    <div class="col-4 text-center p-0">
-                        <div class="container p-2">
-                            <a href="#modal-link" data-toggle="modal" data-target="#modal-link"><img class="img_responsive" src="spain.jpg"></a>
-                            <div class="hovertext">Spain</div>
-                        </div>
-                    </div>
+            <div class="col-sm text-center p-0">
+                <div class="container p-2">
+                    <a href="#modal-link" data-toggle="modal" data-target="#modal-link"><img class="img_responsive" src="vietnam.jpg"></a>
+                    <div class="hovertext">Vietnam</div>
                 </div>
             </div>
-          </div>
+            <div class="col-sm text-center p-0">
+                <div class="container p-2">
+                    <a href="#modal-link" data-toggle="modal" data-target="#modal-link"><img class="img_responsive" src="spain.jpg"></a>
+                    <div class="hovertext">Spain</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <hr class="my-4">
+    <hr class="my-4">
 
     <!-- Footer -->
 
-        <div class="container footer">
-            <div class="row my-5">
+    <div class="container footer">
+        <div class="row my-5">
             <div class="col-sm-9">
                 <h6>Julian's Epic Travels</h6>
                 <ul class="list-unstyled mt-3">
@@ -130,29 +125,29 @@
                 <h6>Established 2020</h6>
                 <p class="mt-3"><em>For your joy and entertainment only.</em></p>
             </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="modal-link" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="modal-link">Oops!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            This link isn't active yet!
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
-
-<!-- Modal -->
-
-<div class="modal fade" id="modal-link" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-        <div class="modal-header">
-        <h5 class="modal-title" id="modal-link">Oops!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-        </div>
-        <div class="modal-body">
-        This link isn't active yet!
-        </div>
-        <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
     </div>
-    </div>
-</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

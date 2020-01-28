@@ -5,14 +5,19 @@
     padding-bottom: 0;
 }
 
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 .jumbotron {
     background-image: url(vietnam-2.jpg);
     background-attachment: fixed;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 25%;
-    background-position-y: -260px;
     position: relative;
 }
 
