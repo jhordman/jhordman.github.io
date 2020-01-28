@@ -13,7 +13,6 @@ h1 {
 
 .jumbotron {
     background-image: url(vietnam-2.jpg);
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
