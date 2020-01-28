@@ -18,7 +18,7 @@
     <!-- Your own CSS -->
     <link rel="stylesheet" href="styles.css">
 
-    <title>Julian's Epic Travels</title>
+    <title>Julian's Epic Travels - Home</title>
   </head>
   <body>
 
@@ -37,8 +37,15 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#modal-link" data-toggle="modal" data-target="#modal-link">Contact</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Recent Trips
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="iceland.html">Iceland</a>
+                          <a class="dropdown-item" href="#modal-link" data-toggle="modal" data-target="#modal-link">Vietnam</a>
+                          <a class="dropdown-item" href="#modal-link" data-toggle="modal" data-target="#modal-link">Spain</a>
+                        </div>
                     </li>
                 </ul>
                     <a class="btn btn-dark btn-md" href="subscribe.html" role="button">Subscribe</a>
@@ -117,7 +124,6 @@
                 <h6>Julian's Epic Travels</h6>
                 <ul class="list-unstyled mt-3">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#modal-link" data-toggle="modal" data-target="#modal-link">Contact</a></li>
                     <li><a href="subscribe.html">Subscribe</a></li>
                 </ul>
             </div>
